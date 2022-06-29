@@ -1,0 +1,4 @@
+data_viz.hipnc filter=lfs diff=lfs merge=lfs -text
+game_of_life.hipnc filter=lfs diff=lfs merge=lfs -text
+physics.hipnc filter=lfs diff=lfs merge=lfs -text
+../data/eu_dem_v11_E40N20_4k.tiff filter=lfs diff=lfs merge=lfs -text
