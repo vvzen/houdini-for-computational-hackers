@@ -30,3 +30,13 @@ $ csvcut -c NAME,SURVEY_DATE,AREA careser_data.csv | csvlook | less -S -N
 # Gather some initial statistics
 $ csvcut -c AREA careser_data.csv | csvstat
 ```
+
+## Quick notes about the DEM tiles
+
+TL;DR from https://land.copernicus.eu/user-corner/technical-library/eu-dem-v1-1-user-guide
+
+EU-DEM upgrade is presented in Geotiff 32 bits format.
+It is a contiguous dataset divided into 100x100 km tiles, resulting in a total of 1992 tiles of 4000x4000 pixel at 25m resolution.
+The Vertical accuracy is +/- 7 meters RMSE
+
+The height of Mt Cevedale is around 3754.1 meters

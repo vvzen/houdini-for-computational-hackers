@@ -1,0 +1,9 @@
+-> game_of_life.hipnc
+How simulations work in Houdini
+
+-> data_viz.hipnc
+Something more sophisticated that procedurally builds a landscape
+based on an input csv file
+
+-> physics.hipnc
+Some basic Soft Body Dynamics simulations using Vellum
